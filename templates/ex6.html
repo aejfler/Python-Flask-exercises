@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="POST">
+    <h2>MOVIE TITLES</h2>
+    <label name="Insert title">
+        <input type="text" name="title" placeholder="Insert title" value="{{title}}"/>
+    </label>
+{% if message %}
+    <p>{{message}}</p>
+{%endif%}
+</form>
+</body>
+</html>
